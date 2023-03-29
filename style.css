@@ -1,0 +1,172 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+header{
+    background-color: rgb(94, 93, 93);
+}
+.nav-main, .nav-cursos, .nav-informations, .foo-informations{
+    font-size: 12px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    padding: 4px;
+}
+
+.nav-main li a, .nav-cursos li a, .informations li a, .footer-infs li a{
+    padding: 5px;
+    margin-left: 20px ;
+    list-style: none;
+    color: rgb(218, 218, 218);
+    text-decoration: none;
+}
+.nav-header-fei{
+    height: 80px;
+    width: 100;
+}
+.nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+.right{
+    position: relative;
+    display: flex;
+}
+.button{
+    margin-left: 10px;
+    padding: 15px 24px;
+    border-radius: 6px;
+    transition:  .5s;
+    cursor: pointer;
+
+}
+.hover{
+    color: white;
+}
+.hover:hover{
+    background-color: rgb(4, 31, 155);
+}
+/* botoes */
+.pesquisar::placeholder{
+    float: right;
+    color: darkblue;
+}
+.pesquisar{
+    border-color: darkblue;
+    width: 150px;
+}
+.first{
+    background-color: rgb(110, 202, 34);
+}
+.second{
+    background-color: rgb(82, 186, 221);
+}
+/* cursos */
+.container-cursos{
+    padding-top: 20px;
+}
+.curso{
+    padding: 8px;
+    background-color: rgb(2, 2, 87);
+}
+/* section */
+section{
+    padding-top: 100px;
+}
+section h1{
+    text-align: center;
+    text-transform: uppercase   ;
+    color: darkblue;
+    font-size: 40px;
+    padding-bottom: 30px;
+}
+.firstimages{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.firstimages img{
+    margin-left: 20px;
+    max-width: 300px;
+}
+/* SECOND SECTION */
+h2{
+    text-align: center;
+    font-size: 40px;
+    color: orange;
+    margin-bottom: 20px;
+
+}
+.nav-informations li a{
+    color: rgba(0, 0, 0, 0.507);
+}
+.robofei{
+    flex-grow: 4;
+    flex-basis: 400px;
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    padding: 0px 140px;
+}
+.robofei h3{
+    font-size: 40px;
+    color: darkblue;
+}
+.robofei-container{
+    padding: 20px;
+}
+.robofei p{
+    margin-top: 40px;
+}
+.robofei img{
+    margin-left: 20px;
+    max-width: 300px;
+}
+
+.btn-robo-fei{
+    margin-top: 20px;
+    text-align: center;
+    background-color: white;
+    display: flex;
+    width: 120px;
+    justify-content: center;
+    color: darkblue;
+    border-radius: 10px;
+    padding: 10px 10px;
+    border: 1px solid darkblue;
+}
+.blue{
+    margin: 40px 0px;
+    width: 100%;
+    height: 80px;
+    background-color: rgb(30, 101, 207);
+}
+/* footer */
+.footer-infs li a {
+    color: rgb(30, 101, 207);
+    font-size: 15px;
+}
+.finals{
+    text-align: center;
+}
+.finals p{
+    padding: 20px;
+}
+.btn-robo-fei:hover{
+    cursor: pointer;
+    transition: .5s;
+    color: white;
+    background-color: darkblue ;
+}
+li a{
+    cursor: pointer;
+}
+li a:hover{
+    transition: .5s;
+    color: rgb(145, 141, 141);
+}
